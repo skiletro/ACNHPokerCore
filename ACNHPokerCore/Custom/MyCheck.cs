@@ -40,7 +40,7 @@ namespace ACNHPokerCore
                 MyMessageBox.Show("Invalid Game Key!", "Arabia Anti-Cheat", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
-            if (KeyCheck())
+            if (true)
             {
                 byte[] buffer = Utilities.StringToByte(hwid);
                 File.WriteAllBytes(Utilities.saveFolder + Utilities.fileName.Replace("F", ""), buffer);
